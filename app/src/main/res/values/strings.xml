@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">HydrataME</string>
+
+    <!-- Navegación y barras -->
+    <string name="titulo_hoy">Hoy</string>
+    <string name="titulo_historial">Historial</string>
+    <string name="titulo_nuevo">Nuevo registro</string>
+    <string name="titulo_editar">Editar registro</string>
+    <string name="volver">Volver</string>
+    <string name="anadir_registro">Añadir registro</string>
+
+    <!-- Pantalla Hoy -->
+    <string name="progreso_ml">%1$d / %2$d ml</string>
+    <string name="boton_250">+250 ml</string>
+    <string name="boton_500">+500 ml</string>
+    <string name="ultimo_registro">Último registro: %1$s (hace %2$d min)</string>
+    <string name="registros_hoy">Registros de hoy</string>
+    <string name="sin_registros_hoy">Aún no has bebido nada hoy</string>
+
+    <!-- Sensor de pasos -->
+    <string name="pasos_titulo">Pasos de hoy</string>
+    <string name="pasos_valor">%1$d pasos</string>
+    <string name="pasos_permiso">Concede el permiso de actividad física para ajustar tu meta según tus pasos.</string>
+    <string name="pasos_conceder">Conceder permiso</string>
+    <string name="pasos_sin_sensor">Este dispositivo no tiene contador de pasos. Se usa la meta base.</string>
+    <string name="pasos_meta_extra">Más pasos, más agua: +250 ml cada 3000 pasos.</string>
+
+    <!-- Clima (Retrofit) -->
+    <string name="clima_titulo">Temperatura</string>
+    <string name="clima_cargando">Cargando temperatura…</string>
+    <string name="clima_valor">%1$.0f °C</string>
+    <string name="clima_calor">Hace calor: +%1$d ml de meta</string>
+    <string name="clima_error">No se pudo obtener la temperatura</string>
+    <string name="reintentar">Reintentar</string>
+
+    <!-- Historial -->
+    <string name="sin_historial">No hay registros todavía</string>
+    <string name="total_dia">%1$s · %2$d ml</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+
+    <!-- Borrado -->
+    <string name="borrar_titulo">Borrar registro</string>
+    <string name="borrar_texto">¿Seguro que quieres borrar este registro de %1$d ml?</string>
+    <string name="borrar_confirmar">Borrar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- Formulario -->
+    <string name="campo_ml">Cantidad (ml)</string>
+    <string name="error_ml">Introduce una cantidad mayor que 0</string>
+    <string name="fecha_registro">Fecha: %1$s</string>
+    <string name="guardar">Guardar</string>
+</resources>
